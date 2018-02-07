@@ -27,7 +27,9 @@ public class CharacterInput : MonoBehaviour {
 		float deltaZ = Input.GetAxis ("Vertical") * speed;
 		Vector3 movement = new Vector3 (deltaX, 0, deltaZ);
 
-		_animator.SetFloat ("Speed", movement.sqrMagnitude);
+		Debug.Log (movement.magnitude);
+		_animator.SetFloat ("Hor", deltaX);
+		_animator.SetFloat ("Vert", deltaZ);
 
 		//Добавляем гравитацию в наш вектор
 		movement.y = gravity;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.45032245, g: 0.5003491, b: 0.5753053, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -117,6 +117,23 @@ NavMeshSettings:
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
   m_PrefabInternal: {fileID: 1208988200}
+--- !u!95 &51356022
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51356021}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 8815096eb9d362843bdec19415d1d0ca, type: 3}
+  m_Controller: {fileID: 9100000, guid: e34cda6fd901a6a4aaea0f06311e9516, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &51356023 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
@@ -226,13 +243,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 248647147}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.3675494, y: 0.14060546, z: 0.18853842, w: 0.89977264}
+  m_LocalPosition: {x: 341.8, y: 67, z: 211.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 37.474003, y: 29.568, z: 33.9}
 --- !u!1001 &305101974
 Prefab:
   m_ObjectHideFlags: 0
@@ -351,7 +368,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 996592665}
   m_LocalRotation: {x: 0.00000017881395, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.614, z: 0.047009528}
+  m_LocalPosition: {x: 0, y: 1.65, z: 0.096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 51356023}
@@ -517,7 +534,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: 9c14d86e86cc7ac458e76ffbca585e85, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
